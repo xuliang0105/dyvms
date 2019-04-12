@@ -1,6 +1,6 @@
 # VoiceRTASRReport {#concept_b1g_zqj_fhb .concept}
 
-订阅ASR实时消息（VoiceRTASRReport），可以获取通话的实时文本转换结果。
+订阅ASR实时消息（VoiceRTASRReport），可以获取点击拨号通话中的实时文本转换结果。
 
 |名称|类型|描述|示例值|
 |:-|:-|:-|:--|
