@@ -50,8 +50,8 @@
 
 |API|描述|
 |:--|:-|
-|[呼叫记录消息（VoiceReport）](cn.zh-CN/API参考/消息回执/VoiceReport.md)|订阅呼叫记录消息（VoiceReport）可以在呼叫结束后获取呼叫的记录信息，包括通话时长、结束原因等。|
-|[录音记录消息（VoiceCallReport）](cn.zh-CN/API参考/消息回执/VoiceReport.md)|订阅呼叫中间状态消息（VoiceCallReport），可以获取呼叫的的中间状态信息，例如状态产生的时间等。|
+|[呼叫记录消息（VoiceReport）](cn.zh-CN/API参考/消息回执/VoiceReport.md)|订阅呼叫记录消息（VoiceReport）可以在呼叫结束后获取呼叫的记录信息，包括通话类型、通话的开始及结束时间、通话时长、结束原因等。|
+|[录音记录消息（VoiceCallReport）](cn.zh-CN/API参考/消息回执/VoiceReport.md)|订阅呼叫中间状态消息（VoiceCallReport），可以获取呼叫过程中的通话状态的信息，通常包括开始、振铃、接听、挂断以及状态产生的时间等。|
 |[呼叫记录消息（VoiceRecordReport）](cn.zh-CN/API参考/消息回执/VoiceReport.md)|订阅录音记录消息（VoiceRecordReport），可以在通话结束后获取通话的录音记录。|
-|[ASR实时消息（VoiceRTASRReport）](cn.zh-CN/API参考/消息回执/VoiceReport.md)|订阅ASR实时消息（VoiceRTASRReport），可以获取通话的实时文本转换结果。|
+|[ASR实时消息（VoiceRTASRReport）](cn.zh-CN/API参考/消息回执/VoiceReport.md)|订阅ASR实时消息（VoiceRTASRReport），可以获取点击拨号通话中的实时文本转换结果。|
 
