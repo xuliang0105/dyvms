@@ -8,22 +8,22 @@
 
 |API|描述|
 |:--|:-|
-|[SingleCallByVoice](cn.zh-CN/API参考/语音通知/SingleCallByVoice.md)|调用接口SingleCallByVoice发起语音文件类型的语音通知。|
-|[SingleCallByTts](cn.zh-CN/API参考/语音通知/SingleCallByTts.md)|调用接口SingleCallByTts发起语音通知，播放的音频为文本转语音模板转换后的音频文件。|
-|[IvrCall](cn.zh-CN/API参考/语音通知/IvrCall.md)|调用接口IvrCall发起交互式语音通话。|
+|[SingleCallByVoice](~~114036~~)|调用接口SingleCallByVoice发起语音文件类型的语音通知。|
+|[SingleCallByTts](~~114035~~)|调用接口SingleCallByTts发起语音通知，播放的音频为文本转语音模板转换后的音频文件。|
+|[IvrCall](~~114037~~)|调用接口IvrCall发起交互式语音通话。|
 
 ## 点击呼叫接口 {#section_ktk_xcs_ggb .section}
 
 |API|描述|
 |:--|:-|
-|[ClickToDial](cn.zh-CN/API参考/点击呼叫/ClickToDial.md)|调用接口ClickToDial发起一次双方通话。|
-|[CancelCall](cn.zh-CN/API参考/点击呼叫/CancelCall.md)|调用接口CancelCall取消点击呼叫接口ClickToDial发起的呼叫。|
+|[ClickToDial](~~114040~~)|调用接口ClickToDial发起一次双方通话。|
+|[CancelCall](~~114039~~)|调用接口CancelCall取消点击呼叫接口ClickToDial发起的呼叫。|
 
 ## 智能语音交互呼出接口 {#section_z1s_xcs_ggb .section}
 
 |API|描述|
 |:--|:-|
-|[SmartCall](cn.zh-CN/API参考/智能语音交互呼出/SmartCall.md)|调用接口SmartCall发起智能语音交互通话。|
+|[SmartCall](~~114042~~)|调用接口SmartCall发起智能语音交互通话。|
 
 ## 回调HTTP接口 {#section_fyb_qwh_hhb .section}
 
@@ -36,15 +36,15 @@
 
 |API|描述|
 |:--|:-|
-|[BatchRobotSmartCall](cn.zh-CN/API参考/智能语音机器人/BatchRobotSmartCall.md)|调用接口BatchRobotSmartCall发起机器人外呼任务。|
-|[QueryRobotInfoList](cn.zh-CN/API参考/智能语音机器人/QueryRobotInfoList.md)|调用接口QueryRobotInfoList查看机器人列表。|
-|[QueryCallDetailByTaskId](cn.zh-CN/API参考/智能语音机器人/QueryCallDetailByTaskId.md)|调用接口QueryCallDetailByTaskId查看指定机器人外呼任务的话单详情。|
+|[BatchRobotSmartCall](~~114049~~)|调用接口BatchRobotSmartCall发起机器人外呼任务。|
+|[QueryRobotInfoList](~~114047~~)|调用接口QueryRobotInfoList查看机器人列表。|
+|[QueryCallDetailByTaskId](~~114044~~)|调用接口QueryCallDetailByTaskId查看指定机器人外呼任务的话单详情。|
 
 ## 呼叫记录查询接口 {#section_wjq_nwh_hhb .section}
 
 |API|描述|
 |:--|:-|
-|[QueryCallDetailByCallId](cn.zh-CN/API参考/呼叫记录查询/QueryCallDetailByCallId.md)|调用接口QueryCallDetailByCallId查询指定通话的呼叫详情。|
+|[QueryCallDetailByCallId](~~114046~~)|调用接口QueryCallDetailByCallId查询指定通话的呼叫详情。|
 
 ## 回执消息 {#section_qhp_pwh_hhb .section}
 
