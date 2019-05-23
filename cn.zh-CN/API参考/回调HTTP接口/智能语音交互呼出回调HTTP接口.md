@@ -30,7 +30,7 @@
 
     此处填写的接收地址是固定接收地址，用于接收语音实时转文本结果并返回下一步执行动作。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/150139/155730617242288_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/150139/155861219242288_zh-CN.png)
 
 7.  单击**保存**。
 
@@ -146,6 +146,9 @@ http://127.0.0.1/test?call_id=100001616500^100001871490&timestamp=1504174341229&
 -   **dtmf**：接收dtmf消息
 -   **parallel\_transfer**：并行转接命令
 -   **parallel\_bridge**：并行桥接命令
+
+**说明：** 当请求参数is\_monitor为true时，请勿使用parallel\_bridge命令。
+
 
  |
 |action\_break|Boolean|可选|true|当前动作是否可以打断，默认是true，可打断|
