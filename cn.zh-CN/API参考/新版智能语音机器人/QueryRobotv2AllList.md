@@ -1,12 +1,10 @@
 # QueryRobotv2AllList {#doc_api_Dyvmsapi_QueryRobotv2AllList .reference}
 
-获取机器人全量列表
+调用QueryRobotv2AllList获取机器人全量列表。
 
-获取机器人全量列表
+## 调试 {#api_explorer .section}
 
-## 调试 {#apiExplorer .section}
-
-前往【[API Explorer](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotv2AllList)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotv2AllList&type=RPC&version=2017-05-25)
 
 ## 请求参数 {#parameters .section}
 
@@ -60,12 +58,11 @@ http(s)://[Endpoint]/?Action=QueryRobotv2AllList
 
 ``` {#xml_return_success_demo}
 <QueryRobotv2AllListResponse>
-  <Message>OK</Message>
-  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
-  <Code>OK</Code>
-  <Data>{"id":1000000075003,"robotName":"机器人","robotType":"CUSTOM"}</Data>
+	  <Message>OK</Message>
+	  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
+	  <Code>OK</Code>
+	  <Data>{"id":1000000075003,"robotName":"机器人","robotType":"CUSTOM"}</Data>
 </QueryRobotv2AllListResponse>
-
 ```
 
 `JSON` 格式
