@@ -1,12 +1,10 @@
 # QueryRobotTaskCallList {#doc_api_Dyvmsapi_QueryRobotTaskCallList .reference}
 
-查询智能语音任务通话列表
+调用QueryRobotTaskCallList查询智能语音任务通话列表。
 
-查询智能语音任务通话列表
+## 调试 {#api_explorer .section}
 
-## 调试 {#apiExplorer .section}
-
-前往【[API Explorer](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotTaskCallList)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotTaskCallList&type=RPC&version=2017-05-25)
 
 ## 请求参数 {#parameters .section}
 
@@ -132,12 +130,11 @@ http(s)://[Endpoint]/?Action=QueryRobotTaskCallList
 
 ``` {#xml_return_success_demo}
 <QueryRobotTaskCallListResponse>
-  <Message>OK</Message>
-  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
-  <Code>OK</Code>
-  <Data>[ { "taskId": 1045001, "caller": "0571-88996676", "called": "13000000000", "duration": "60", "label": "邀约,有房,无车", "dialogCount": "3", "callResult": "无法接通", "hangupDirection": "1", "transferResult": "3", "transferNumber":"0571-88336676", "transferFailReason" :"用户挂断", "callId" :"116950320375^103750100375", "recallCurTimes": 2, "callStartTime": "2019.06.14 15:22:23", "callEndTime": "2019.06.14 15:22:55", "sureCount": 2, "denyCount": 2, "rejectCount": 0, "customCount": 0, "konwledgeCount": 0, "defaultCount": 0, "knowledgeBusinessCount": 0, "knowledgeCommonCount": 0 } ]</Data>
+	  <Message>OK</Message>
+	  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
+	  <Code>OK</Code>
+	  <Data>[ { "taskId": 1045001, "caller": "0571-88996676", "called": "13000000000", "duration": "60", "label": "邀约,有房,无车", "dialogCount": "3", "callResult": "无法接通", "hangupDirection": "1", "transferResult": "3", "transferNumber":"0571-88336676", "transferFailReason" :"用户挂断", "callId" :"116950320375^103750100375", "recallCurTimes": 2, "callStartTime": "2019.06.14 15:22:23", "callEndTime": "2019.06.14 15:22:55", "sureCount": 2, "denyCount": 2, "rejectCount": 0, "customCount": 0, "konwledgeCount": 0, "defaultCount": 0, "knowledgeBusinessCount": 0, "knowledgeCommonCount": 0 } ]</Data>
 </QueryRobotTaskCallListResponse>
-
 ```
 
 `JSON` 格式
