@@ -1,12 +1,10 @@
 # QueryRobotTaskList {#doc_api_Dyvmsapi_QueryRobotTaskList .reference}
 
-获取智能语音任务详情
+调用QueryRobotTaskList获取智能语音任务详情。
 
-获取智能语音任务列表
+## 调试 {#api_explorer .section}
 
-## 调试 {#apiExplorer .section}
-
-前往【[API Explorer](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotTaskList)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotTaskList&type=RPC&version=2017-05-25)
 
 ## 请求参数 {#parameters .section}
 
@@ -108,12 +106,11 @@ http(s)://[Endpoint]/?Action=QueryRobotTaskList
 
 ``` {#xml_return_success_demo}
 <QueryRobotTaskListResponse>
-  <Message>OK</Message>
-  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
-  <Code>OK</Code>
-  <Data>[ {"id": 1045001, "taskName": "智能语音任务", "robotId": 1000000075003, "robotName": "机器人", "status": "INIT", "scheduleType": "SINGLE", "createTime":  "2019.06.14 14:55:23", "completeTime": "2019.06.14 14:55:23", "fireTime": "2019.06.14 14:55:23", "totalCount": 1000, "finishCount": 998} </Data>
+	  <Message>OK</Message>
+	  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
+	  <Code>OK</Code>
+	  <Data>[ {"id": 1045001, "taskName": "智能语音任务", "robotId": 1000000075003, "robotName": "机器人", "status": "INIT", "scheduleType": "SINGLE", "createTime":  "2019.06.14 14:55:23", "completeTime": "2019.06.14 14:55:23", "fireTime": "2019.06.14 14:55:23", "totalCount": 1000, "finishCount": 998} </Data>
 </QueryRobotTaskListResponse>
-
 ```
 
 `JSON` 格式
