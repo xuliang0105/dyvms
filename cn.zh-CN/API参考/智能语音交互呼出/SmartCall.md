@@ -14,9 +14,9 @@
 
 **说明：** 请确保在使用该接口前，已充分了解语音服务产品的收费方式和[价格](https://www.aliyun.com/price/product#/vms/detail)。
 
-## 调试 {#apiExplorer .section}
+## 调试 {#api_explorer .section}
 
-前往【[API Explorer](https://api.aliyun.com/#product=Dyvmsapi&api=SmartCall)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Dyvmsapi&api=SmartCall&type=RPC&version=2017-05-25)
 
 ## 请求参数 {#parameters .section}
 
@@ -108,7 +108,9 @@
 |AsrBaseId|String|否|customer\_service\_8k|ASR基础模型。可设置为：
 
  -   **customer\_service\_8k**：普通话。
--   **dialect\_customer\_service\_8k**：重口音。**注意**：
+-   **dialect\_customer\_service\_8k**：重口音。
+
+ **注意**：
 
  调用接口**SmartCall**时，需要指定使用的ASR模型，建议参数**asrModelId**和**AsrBaseId**二者选填一个。
 
@@ -206,9 +208,9 @@
 
 |yina
 
-| |
+|
 
-## 返回参数 {#resultMapping .section}
+## 返回数据 {#resultMapping .section}
 
 |名称|类型|示例值|描述|
 |--|--|---|--|
@@ -248,12 +250,11 @@ http(s)://[Endpoint]/?Action=SmartCall
 
 ``` {#xml_return_success_demo}
 <SmartCallResponse>
-  <Message>OK</Message>
-  <RequestId>A90E4451-FED7-49D2-87C8-00700A8C4D0D</RequestId>
-  <Code>OK</Code>
-  <CallId>116012854210^102814279210</CallId>
+	  <Message>OK</Message>
+	  <RequestId>A90E4451-FED7-49D2-87C8-00700A8C4D0D</RequestId>
+	  <Code>OK</Code>
+	  <CallId>116012854210^102814279210</CallId>
 </SmartCallResponse>
-
 ```
 
 `JSON` 格式
@@ -269,5 +270,5 @@ http(s)://[Endpoint]/?Action=SmartCall
 
 ## 错误码 { .section}
 
-[查看本产品错误码](https://error-center.aliyun.com/status/product/Dyvmsapi)
+访问[错误中心](https://error-center.aliyun.com/status/product/Dyvmsapi)查看更多错误码。
 
