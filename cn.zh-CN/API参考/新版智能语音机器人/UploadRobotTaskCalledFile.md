@@ -1,12 +1,12 @@
 # UploadRobotTaskCalledFile {#doc_api_Dyvmsapi_UploadRobotTaskCalledFile .reference}
 
-上传智能语音任务的被叫号码
+调用UploadRobotTaskCalledFile上传智能语音任务的被叫号码。
 
 在创建智能语音机器人任务后，需要分批上传被叫号码，每个任务最多上传30万个号码，可分多次上传完成。
 
-## 调试 {#apiExplorer .section}
+## 调试 {#api_explorer .section}
 
-前往【[API Explorer](https://api.aliyun.com/#product=Dyvmsapi&api=UploadRobotTaskCalledFile)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Dyvmsapi&api=UploadRobotTaskCalledFile&type=RPC&version=2017-05-25)
 
 ## 请求参数 {#parameters .section}
 
@@ -68,12 +68,11 @@ http(s)://[Endpoint]/?Action=UploadRobotTaskCalledFile
 
 ``` {#xml_return_success_demo}
 <UploadRobotTaskCalledFileResponse>
-  <Message>OK</Message>
-  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
-  <Code>OK</Code>
-  <Data>4001112222</Data>
+	  <Message>OK</Message>
+	  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
+	  <Code>OK</Code>
+	  <Data>4001112222</Data>
 </UploadRobotTaskCalledFileResponse>
-
 ```
 
 `JSON` 格式
