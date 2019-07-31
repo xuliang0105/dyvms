@@ -1,12 +1,10 @@
 # QueryRobotTaskDetail {#doc_api_Dyvmsapi_QueryRobotTaskDetail .reference}
 
-调用获取智能语音任务详情。
+调用QueryRobotTaskDetail获取智能语音任务详情。
 
-调用获取智能语音任务详情。
+## 调试 {#api_explorer .section}
 
-## 调试 {#apiExplorer .section}
-
-前往【[API Explorer](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotTaskDetail)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Dyvmsapi&api=QueryRobotTaskDetail&type=RPC&version=2017-05-25)
 
 ## 请求参数 {#parameters .section}
 
@@ -93,12 +91,11 @@ http(s)://[Endpoint]/?Action=QueryRobotTaskDetail
 
 ``` {#xml_return_success_demo}
 <QueryRobotTaskDetailResponse>
-  <Message>OK</Message>
-  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
-  <Code>OK</Code>
-  <Data>{"id":1045001,"taskName":"智能语音务","robotId":1000000075003,"robotName":"机器人","corpName":"广东合富房地产置业有限公司1,广东合富房地产置业有限公司2 ","caller":"057156860008,057156860006", "numberStatusIdent":true,"status":"INIT","scheduleType":"SINGLE", "retryType":1,"recallStateCodes":"200010,200011", "recallTimes":2,"recallInterval":5,"createTime": "2019-06-14 11:04:19","fireTime":"2019-06-14 11:05:23","completeTime": "2019-06-14 18:21:06","called": [{"fileName": "5102636f-7be6-4a2d-9ac7-755a2e140a50--robotCallApi", "ossFilePath": "http://alicom-fc-media.cn-hangzhou.oss.aliyun-inc.com/5102636f-7be6-4a2d-9ac7-755a2e140a50--robotCallApi.xlsx"}]}</Data>
+	  <Message>OK</Message>
+	  <RequestId>D9CB3933-9FE3-4870-BA8E-2BEE91B69D23</RequestId>
+	  <Code>OK</Code>
+	  <Data>{"id":1045001,"taskName":"智能语音务","robotId":1000000075003,"robotName":"机器人","corpName":"广东合富房地产置业有限公司1,广东合富房地产置业有限公司2 ","caller":"057156860008,057156860006", "numberStatusIdent":true,"status":"INIT","scheduleType":"SINGLE", "retryType":1,"recallStateCodes":"200010,200011", "recallTimes":2,"recallInterval":5,"createTime": "2019-06-14 11:04:19","fireTime":"2019-06-14 11:05:23","completeTime": "2019-06-14 18:21:06","called": [{"fileName": "5102636f-7be6-4a2d-9ac7-755a2e140a50--robotCallApi", "ossFilePath": "http://alicom-fc-media.cn-hangzhou.oss.aliyun-inc.com/5102636f-7be6-4a2d-9ac7-755a2e140a50--robotCallApi.xlsx"}]}</Data>
 </QueryRobotTaskDetailResponse>
-
 ```
 
 `JSON` 格式
