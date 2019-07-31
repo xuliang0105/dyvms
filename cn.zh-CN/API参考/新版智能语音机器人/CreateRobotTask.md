@@ -25,7 +25,7 @@
 |AccessKeyId|String|否|LTAIP00vvvvvvvvv|主账号AccessKey的ID。
 
  |
-|Action|String|否|CreateRobotTask|系统规定参数。取值：CreateRobotTask。
+|Action|String|否|CreateRobotTask|系统规定参数。取值：**CreateRobotTask**。
 
  |
 |Caller|String|否|13700000000|被叫号码。仅支持中国大陆号码。
